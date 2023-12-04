@@ -11,7 +11,144 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        @include('scriptfile')
+        <STYle>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+          }
+
+          #container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+          }
+
+          #inputContainer {
+            margin-bottom: 20px;
+          }
+
+          #output {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          #output textarea {
+            width: 100%;
+            height: 200px;
+            margin-top: 10px;
+          }
+
+          button {
+            margin-top: 10px;
+            padding: 10px;
+            cursor: pointer;
+          }
+
+          #validEmails, #invalidEmails, #additionalValidEmails {
+            display: none;
+            width: 100%;
+          }
+
+          #error {
+            color: red;
+            margin-top: 10px;
+          }
+
+
+          .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #36b1f7;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 18px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        }
+
+        .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+
+        .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+
+        .button:hover span {
+        padding-right: 25px;
+        }
+
+        .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+
+        .headingtxt{
+          background-color: #04AA6D; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+        @keyframes blink {
+            0%, 100% {
+              background-color: red;
+              color: white;
+            }
+            50% {
+              background-color: blue;
+              color: white;
+            }
+          }
+
+          .blinking-button {
+            animation: blink 1s infinite;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+          }
+
+
+          footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+          }
+
+
+      </STYle>
        
     </head>
     <body>
