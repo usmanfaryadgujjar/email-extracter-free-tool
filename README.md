@@ -16,6 +16,12 @@ An easy way to extract email addresses from text material is to use Email Extrac
 # Download Laravel Project click 
 https://github.com/usmanfaryadgujjar/email-extracter-free-tool/tree/main
 
+
+# My Youtube proper video demo upload  
+https://www.youtube.com/@easycodeproject
+
+
+
 # Do you want to create or redesign an amazing website for your business and rank it on the first page of Google?
 # We are providing attractive offers, discounts, and benefits on some of our most demanding services like
 • New Website Development and Redesign
